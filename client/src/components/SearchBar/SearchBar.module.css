@@ -1,0 +1,41 @@
+.cnt {
+    display: flex;
+    background-color:#b9c211;
+    height: 40px;
+    padding: 4px;
+    justify-content: flex-start;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 40%;
+    height: auto; 
+    align-Items:center;
+    padding: 5px;
+}
+
+.btn {
+    background-color: #d3d60a;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: #8e6b7a;
+    margin-left: 10px;
+    font-size: 1.5em; 
+
+}
+
+.btn:hover {
+    background:linear-gradient(to bottom, #313116 5%, #ededed 100%);
+    background-color: #536381;
+    color:#d3d60a;
+
+    /* background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba; */
+}
+
+.btn:active {
+	position:relative;
+	top:1px;
+}

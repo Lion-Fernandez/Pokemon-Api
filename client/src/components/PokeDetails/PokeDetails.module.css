@@ -1,0 +1,25 @@
+.di{
+  display: flex;
+  justify-content: center;
+}
+
+.cntt{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: transparent 30% #efcfb6;
+    width:380px;
+    height:720px;
+    padding: 15px;
+    border: 1px solid #536381;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: inset 37px -37px 74px #ddbfa7,
+                inset -37px 37px 74px #ffe5c7;
+  
+  }
+  .infoCntt{
+  
+    text-decoration-color: #8e6b7a;
+    background: #a48e9f transparent 10%;
+  }
